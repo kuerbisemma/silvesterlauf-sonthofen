@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>1. Sonthofer Silvesterlauf 2026</title>
+  <meta name="description" content="1. Sonthofer Silvesterlauf am 31.12.2026: 10 km rund um Ortwanger Weiher und Sonthofer See. Start 11:00 Uhr am Ortwanger Weiher.">
+  <meta name="theme-color" content="#14304f">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314304f'/%3E%3Cpath d='M6 50 L24 22 L33 34 L42 18 L58 50Z' fill='%23fff'/%3E%3Ccircle cx='48' cy='14' r='5' fill='%23d4a23a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top" aria-label="Zum Seitenanfang">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="currentColor"/><path d="M6 50 L24 22 L33 34 L42 18 L58 50Z" fill="var(--paper)"/><circle cx="48" cy="14" r="5" fill="var(--gold)"/></svg>
+      <span><strong>Silvesterlauf</strong> Sonthofen</span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menü</button>
+    <nav id="nav" class="nav">
+      <a href="#eckdaten">Eckdaten</a>
+      <a href="#zeitplan">Zeitplan</a>
+      <a href="#strecke">Strecke</a>
+      <a href="#anfahrt">Anfahrt</a>
+      <a href="#ziel">Nach dem Lauf</a>
+      <a href="#ausschreibung">Ausschreibung</a>
+      <a href="#extras">Startnummer &amp; Urkunde</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inhalt">
+
+<section class="hero" id="top">
+  <svg class="hero-mountains" viewBox="0 0 1440 360" preserveAspectRatio="none" aria-hidden="true">
+    <path class="m-back" d="M0 250 L120 190 L210 220 L330 120 L420 170 L520 90 L610 150 L700 110 L820 180 L930 70 L1040 160 L1150 120 L1260 190 L1360 150 L1440 180 L1440 360 L0 360Z"/>
+    <path class="m-snow" d="M520 90 L555 113 L540 118 L520 108 L503 120 L492 112Z M930 70 L968 100 L950 104 L930 92 L912 108 L898 100Z M330 120 L360 140 L345 143 L330 134 L316 146 L305 139Z"/>
+    <path class="m-front" d="M0 300 L160 240 L300 275 L460 215 L600 260 L760 205 L900 255 L1060 225 L1220 270 L1340 240 L1440 260 L1440 360 L0 360Z"/>
+  </svg>
+  <div class="wrap hero-inner">
+    <p class="kicker">Donnerstag, 31. Dezember 2026 · Ortwanger Weiher</p>
+    <h1><span class="edition">1.</span> Sonthofer Silvesterlauf</h1>
+    <p class="subtitle">Rund um Sonthofer See &amp; Ortwanger Weiher · 10 km</p>
+
+    <div class="countdown" id="countdown" aria-live="polite">
+      <div><span id="cd-d">–</span><small>Tage</small></div>
+      <div><span id="cd-h">–</span><small>Std</small></div>
+      <div><span id="cd-m">–</span><small>Min</small></div>
+      <div><span id="cd-s">–</span><small>Sek</small></div>
+    </div>
+    <p class="countdown-msg" id="countdown-msg">bis zum Startschuss um 11:00 Uhr</p>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#strecke">Strecke ansehen</a>
+      <a class="btn btn-ghost" href="assets/silvesterlauf-sonthofen-2026.gpx" download>GPX herunterladen</a>
+    </div>
+    <p class="hero-note"><strong>Keine Anmeldung nötig.</strong> Einfach um 10:45 Uhr da sein.</p>
+  </div>
+</section>
+
+<section class="section" id="eckdaten">
+  <div class="wrap">
+    <h2>Eckdaten</h2>
+    <dl class="facts">
+      <div><dt>Datum</dt><dd>Do, 31.12.2026</dd></div>
+      <div><dt>Start</dt><dd>11:00 Uhr</dd><span>Treffen ab 10:45 Uhr</span></div>
+      <div><dt>Distanz</dt><dd>10 km</dd><span>vermessen: 10,4 km</span></div>
+      <div><dt>Höhenmeter</dt><dd>ca. 30 Hm</dd><span>flach wie ein Pfannkuchen</span></div>
+      <div><dt>Start &amp; Ziel</dt><dd>Ortwanger Weiher</dd><span>Parkplatz Falkenstraße</span></div>
+      <div><dt>Startgebühr</dt><dd>Gute Laune</dd><span>zahlbar vor Ort</span></div>
+      <div><dt>Zeitmessung</dt><dd>Handzeit</dd><span>eigene Uhr, Ehrensache</span></div>
+      <div><dt>Teilnehmerlimit</dt><dd>Keins</dd><span>solange der Glühwein reicht</span></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section section-alt" id="zeitplan">
+  <div class="wrap narrow">
+    <h2>Zeitplan</h2>
+    <ol class="timeline">
+      <li><time>10:30</time><div><strong>Aufbau Zielverpflegung</strong><p>Das Organisationskomitee stellt Thermoskannen in Position.</p></div></li>
+      <li><time>10:45</time><div><strong>Treffpunkt &amp; Kostümschau</strong><p>Parkplatz Falkenstraße am Südende des Ortwanger Weihers.</p></div></li>
+      <li><time>10:55</time><div><strong>Gruppenfoto</strong><p>Vorher sehen alle noch frisch aus.</p></div></li>
+      <li class="hl"><time>11:00</time><div><strong>Startschuss</strong><p>Mangels Pistole: ein beherztes „Los!“.</p></div></li>
+      <li><time>ca. 11:45</time><div><strong>Erste Finisher</strong><p>Bitte nicht den ganzen Glühwein allein trinken.</p></div></li>
+      <li><time>ca. 12:30</time><div><strong>Zielschluss</strong><p>Gemeint ist ein freundlicher, kein harter Zielschluss. Niemand bleibt draußen.</p></div></li>
+      <li><time>danach</time><div><strong>Glühwein, Kinderpunsch &amp; Siegerehrung</strong><p>Alle gewinnen. Plus Sonderpreis für das beste Kostüm.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="strecke">
+  <div class="wrap">
+    <h2>Strecke</h2>
+    <p class="lead">Eine Runde, zwei Seen, einmal über die Iller und zurück. Gelaufen wird <strong>gegen den Uhrzeigersinn</strong>: anderthalb Runden um den Ortwanger Weiher, dann am Iller-Westufer nach Süden zum Sonthofer See und auf dem Iller-Radweg zurück.</p>
+
+    <div class="map-card">
+      <div id="map" role="region" aria-label="Karte der Laufstrecke"></div>
+      <div class="map-legend">
+        <span><i class="lg lg-route"></i>Strecke</span>
+        <span><i class="lg lg-start"></i>Start/Ziel</span>
+        <span><i class="lg lg-km"></i>Kilometer</span>
+        <span><i class="lg lg-p"></i>Parken</span>
+        <span><i class="lg lg-db"></i>Bahnhof</span>
+      </div>
+    </div>
+
+    <div class="profile-card">
+      <div class="profile-head">
+        <h3>Höhenprofil</h3>
+        <span id="profile-readout">Fahr mit der Maus übers Profil</span>
+      </div>
+      <svg id="profile" viewBox="0 0 1000 220" preserveAspectRatio="none" role="img" aria-label="Höhenprofil der Strecke, nahezu flach zwischen 726 und 736 Metern"></svg>
+    </div>
+
+    <div class="route-grid">
+      <div>
+        <h3>Streckenverlauf</h3>
+        <table class="legs">
+          <thead><tr><th>km</th><th>Abschnitt</th><th>Untergrund</th></tr></thead>
+          <tbody>
+            <tr><td>0,0</td><td>Start Falkenstraße, Holzbrücke über die Ostrach</td><td>Asphalt, Holz</td></tr>
+            <tr><td>0,3</td><td>Ortwanger Weiher Ostufer bis zur Nordspitze</td><td>Kies</td></tr>
+            <tr><td>1,1</td><td>Westufer zurück zur Südspitze</td><td>Naturweg</td></tr>
+            <tr><td>2,0</td><td>Ostufer, zweite Runde bis zur Nordspitze</td><td>Kies</td></tr>
+            <tr><td>2,8</td><td>Nach Norden, Iller-Brücke Burgberger Straße</td><td>Kies, Asphalt</td></tr>
+            <tr><td>3,3</td><td>Kurz durch Blaichach-Hofen</td><td>Asphalt</td></tr>
+            <tr><td>3,7</td><td>Iller-Westufer nach Süden bis Bihlerdorf</td><td>Kies</td></tr>
+            <tr><td>5,6</td><td>Zur Nordspitze des Sonthofer Sees</td><td>Asphalt, Kies</td></tr>
+            <tr><td>6,0</td><td>Sonthofer See Westufer bis zur Südspitze</td><td>feiner Kies</td></tr>
+            <tr><td>7,0</td><td>Am Iller-Westufer nach Süden, Iller-Brücke Süd</td><td>Kies, Asphalt</td></tr>
+            <tr><td>7,8</td><td>Iller-Radweg am Ostufer nach Norden</td><td>Kies</td></tr>
+            <tr><td>9,5</td><td>Bihlerdorf Ost, Iller-Ostufer bis zum Holzsteg</td><td>Kies</td></tr>
+            <tr class="finish"><td>10,4</td><td>Ziel Falkenstraße. Glühwein!</td><td>Asphalt</td></tr>
+          </tbody>
+        </table>
+        <p class="fineprint">Die Strecke wurde auf Basis von OpenStreetMap-Daten geplant. Kilometerangaben gerundet.</p>
+      </div>
+      <aside class="notice">
+        <h3>Gut zu wissen</h3>
+        <ul>
+          <li><strong>Keine Toiletten</strong> an der Strecke. Vorher erledigen.</li>
+          <li><strong>Unbeleuchtet &amp; evtl. vereist:</strong> Die Wege werden im Winter nicht zuverlässig geräumt. Grödel oder Trailschuhe empfohlen.</li>
+          <li><strong>Öffentliche Wege:</strong> Rücksicht auf Spaziergänger, Hunde und Radfahrer. Wir sind Gäste.</li>
+          <li><strong>Keine Streckenposten:</strong> Bitte Karte aufs Handy oder GPX auf die Uhr laden.</li>
+          <li><strong>Verpflegung:</strong> im Ziel. Unterwegs gilt Eigenverantwortung.</li>
+        </ul>
+        <a class="btn btn-primary btn-block" href="assets/silvesterlauf-sonthofen-2026.gpx" download>GPX-Track herunterladen</a>
+        <p class="footnote">* Streng genommen liegt der Start auf Burgberger Gemeindegebiet. Wir sagen's nicht weiter.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="anfahrt">
+  <div class="wrap">
+    <h2>Anfahrt &amp; Parken</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Treffpunkt</h3>
+        <p><strong>Parkplatz Falkenstraße</strong><br>Südende des Ortwanger Weihers, direkt an der Holzbrücke über die Ostrach.</p>
+        <p class="links"><a href="https://www.openstreetmap.org/?mlat=47.53196&amp;mlon=10.26204#map=17/47.53196/10.26204" target="_blank" rel="noopener">In OpenStreetMap öffnen</a> · <a href="geo:47.53196,10.26204">Navi-App</a></p>
+      </article>
+      <article class="card">
+        <h3>Mit dem Auto</h3>
+        <p>Der Parkplatz Falkenstraße ist <strong>gebührenpflichtig</strong> (rund um die Uhr). Bitte <strong>Fahrgemeinschaften</strong> bilden.</p>
+        <p>Ausweichparkplatz: <strong>Illerstraße in Bihlerdorf</strong>, ca. 600 m entfernt auf der anderen Illerseite. Er liegt direkt an der Strecke (km 5,5).</p>
+      </article>
+      <article class="card">
+        <h3>Mit der Bahn</h3>
+        <p><strong>Bahnhof Blaichach (Allgäu):</strong> ca. 1,3 km zu Fuß zum Start. Gilt offiziell als Aufwärmprogramm.</p>
+        <p>Vom Bahnhof Sonthofen sind es rund 2,2 km.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="ziel">
+  <div class="wrap narrow">
+    <h2>Nach dem Lauf</h2>
+    <div class="finish-box">
+      <div class="finish-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48"><path d="M12 16h20v16a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 20h4a4 4 0 0 1 0 8h-4" fill="none" stroke="currentColor" stroke-width="3"/><path d="M18 6c0 3-2 3-2 6M24 4c0 3-2 3-2 6M30 6c0 3-2 3-2 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+      </div>
+      <div>
+        <h3>Zielverpflegung: Glühwein &amp; Kinderpunsch</h3>
+        <p>Direkt im Ziel am Ortwanger Weiher. Danach findet die feierliche Siegerehrung statt, bei der traditionell alle gewinnen. Der <strong>Sonderpreis für das beste Kostüm</strong> wird per Applaus vergeben.</p>
+        <p>Anschließend geht es nach Hause, Raclette vorbereiten. Guten Rutsch!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ausschreibung">
+  <div class="wrap narrow">
+    <h2>Ausschreibung &amp; FAQ</h2>
+    <div class="faq">
+      <details open>
+        <summary>Muss ich mich anmelden?</summary>
+        <p>Nein. Es gibt keine Anmeldung, keine Startgebühr und keine Teilnehmerliste. Wer um 10:45 Uhr am Ortwanger Weiher steht, ist dabei.</p>
+      </details>
+      <details>
+        <summary>Wer veranstaltet das?</summary>
+        <p>Das Organisationskomitee Ortwanger Weiher (nicht eingetragen). Es ist eine private Runde unter Freunden, kein Verein und keine offizielle Laufveranstaltung. Jede und jeder läuft auf eigene Verantwortung.</p>
+      </details>
+      <details>
+        <summary>Gibt es eine Zeitmessung?</summary>
+        <p>Ja, die eigene Uhr. Die Ergebnisliste wird auf Ehrenwort geführt. Auf die Urkunde (siehe unten) schreibt ihr eure Zeit selbst.</p>
+      </details>
+      <details>
+        <summary>Darf ich gehen statt laufen?</summary>
+        <p>Selbstverständlich. Gehen, Joggen, Walken: Hauptsache gemeinsam ins neue Jahr.</p>
+      </details>
+      <details>
+        <summary>Kostüme?</summary>
+        <p>Ausdrücklich erwünscht, aber freiwillig. Für das beste Kostüm gibt es einen Sonderpreis. Tipp: Was im Ziel gut aussieht, ist nach 10 km nicht immer noch bequem.</p>
+      </details>
+      <details>
+        <summary>Was passiert bei schlechtem Wetter?</summary>
+        <p>Der Lauf findet bei jedem Wetter statt. Sind die Wege nicht sicher belaufbar (Glatteis, Sturm, sehr viel Neuschnee), entscheidet das Organisationskomitee <strong>am 30.12.</strong> und gibt es in der Gruppe bekannt.</p>
+      </details>
+      <details>
+        <summary>Was soll ich anziehen?</summary>
+        <p>Zwiebellook, Mütze, Handschuhe. Bei Schnee oder Eis Grödel bzw. Spikes. Für danach trockene Wechselkleidung ins Auto. Glühwein schmeckt in trockenen Socken besser.</p>
+      </details>
+      <details>
+        <summary>Hunde, Kinder, Kinderwagen?</summary>
+        <p>Alle willkommen. Die Wege sind überwiegend Kies, Kinderwagen sollten geländetauglich sein. Hunde bitte an der Leine, es sind viele Spaziergänger unterwegs.</p>
+      </details>
+      <details>
+        <summary>Ich habe eine Frage, die hier nicht steht.</summary>
+        <p>Frag einfach in der Gruppe.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="extras">
+  <div class="wrap">
+    <h2>Startnummer &amp; Urkunde</h2>
+    <p class="lead">Zum Selbstausdrucken. Alles passiert nur in deinem Browser, nichts wird gespeichert oder verschickt.</p>
+    <div class="extras-grid">
+      <form class="card tool" id="bib-form">
+        <h3>Startnummer</h3>
+        <label>Name auf der Startnummer<input name="name" maxlength="24" placeholder="z. B. Emma" autocomplete="off"></label>
+        <label>Wunschnummer (optional)<input name="nr" inputmode="numeric" maxlength="4" placeholder="zufällig"></label>
+        <div class="bib preview" id="bib-preview" aria-label="Vorschau Startnummer">
+          <div class="bib-top"><span>Sonthofer Silvesterlauf</span><span>31.12.2026</span></div>
+          <div class="bib-nr" data-bind="nr">2026</div>
+          <div class="bib-name" data-bind="name">Dein Name</div>
+          <div class="bib-bottom"><span>10 km</span><span>Ortwanger Weiher</span></div>
+          <i class="pin tl"></i><i class="pin tr"></i><i class="pin bl"></i><i class="pin br"></i>
+        </div>
+        <button type="submit" class="btn btn-primary">Startnummer drucken</button>
+      </form>
+
+      <form class="card tool" id="cert-form">
+        <h3>Finisher-Urkunde</h3>
+        <label>Name<input name="name" maxlength="40" placeholder="z. B. Emma Kürbis" autocomplete="off"></label>
+        <label>Zeit<input name="time" maxlength="8" placeholder="z. B. 58:12" autocomplete="off"></label>
+        <label>Kategorie
+          <select name="cat">
+            <option>Hauptlauf 10 km</option>
+            <option>Hauptlauf 10 km – Kostümwertung</option>
+            <option>Hauptlauf 10 km – Genießerwertung</option>
+            <option>Hauptlauf 10 km – mit Hund</option>
+          </select>
+        </label>
+        <div class="cert preview" id="cert-preview" aria-label="Vorschau Urkunde">
+          <div class="cert-kicker">Urkunde</div>
+          <div class="cert-event">1. Sonthofer Silvesterlauf</div>
+          <div class="cert-sub">31. Dezember 2026 · Ortwanger Weiher &amp; Sonthofer See</div>
+          <div class="cert-name" data-bind="name">Dein Name</div>
+          <div class="cert-text">hat die 10,4 km lange Strecke erfolgreich bewältigt</div>
+          <div class="cert-time" data-bind="time">–:––</div>
+          <div class="cert-cat" data-bind="cat">Hauptlauf 10 km</div>
+          <div class="cert-place">Platzierung: <strong>1.</strong> <span>(wie alle anderen auch)</span></div>
+          <div class="cert-sign"><span>Organisationskomitee<br>Ortwanger Weiher</span></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Urkunde drucken</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <strong>1. Sonthofer Silvesterlauf 2026</strong><br>
+      Veranstalter: Organisationskomitee Ortwanger Weiher (nicht eingetragen)
+    </div>
+    <p class="disclaimer">Private Veranstaltung unter Freunden. Keine offizielle Laufveranstaltung, kein Verein, keine Haftung. Teilnahme auf eigene Verantwortung.</p>
+    <p class="credits">Karte &amp; Strecke: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap-Mitwirkende</a> (ODbL) · Höhendaten: Open-Meteo / Copernicus DEM</p>
+  </div>
+</footer>
+
+<div class="print-area" id="print-area" aria-hidden="true"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/route.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
