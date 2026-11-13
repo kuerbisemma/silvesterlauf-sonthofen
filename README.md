@@ -28,6 +28,7 @@ Es gibt keinen Build-Schritt: Lokal einfach `index.html` im Browser öffnen.
 
 ## Hinweise
 
+- Kartenkacheln kommen von OpenTopoMap (basiert auf OpenStreetMap). Die offiziellen OSM-Kacheln blockieren Seiten, die lokal als Datei geöffnet werden, und CARTO verlangt inzwischen einen API-Schlüssel.
 - Die Seite ist per `noindex` für Suchmaschinen gesperrt. Den Link teilt ihr nur in der Gruppe.
 - Die Strecke wurde aus OpenStreetMap-Daten gebaut und **noch nicht abgelaufen**. Bitte vorher einmal prüfen, z. B. die GPX-Datei in Komoot importieren.
 - Wer die Strecke ändern will: Die GPX-Datei ersetzen und `assets/route.js` passend dazu neu erzeugen. Das Format ist `points: [[lat, lon], …]`, `profile: [[km, höhe], …]` und `kmMarks: [[km, lat, lon], …]`.
